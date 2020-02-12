@@ -13,6 +13,7 @@
 .eslintrc.json
 .stylelintignore
 .stylelintrc
+gulp-tasks
 ehthumbs.db
 Thumbs.db
 _config.yml
