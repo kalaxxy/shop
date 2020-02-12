@@ -1,10 +1,9 @@
 {
-    "name": "gulp-scss-starter",
-    "description": "Frontend development with pleasure",
-    "author": "Andrey Gorokhov",
+    "name": "shop",
+    "author": "Katerina Ivanenko",
     "repository": {
         "type": "git",
-        "url": "https://github.com/andreyalexeich/gulp-scss-starter.git"
+        "url": "https://github.com/kalaxxy/shop.git"
     },
     "license": "MIT",
     "scripts": {

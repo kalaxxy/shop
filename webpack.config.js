@@ -15,6 +15,8 @@ module.exports = {
     
     entry: {
         main: "./src/js/index.js",
+        catalog: "./src/js/import/pages/catalog.js",
+        cart: "./src/js/import/pages/cart.js"
     },
 
     output: {

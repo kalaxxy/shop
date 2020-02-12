@@ -11,7 +11,7 @@ const requireDir = require("require-dir"),
             ],
             dist: "./dist/",
             watch: [
-                "./src/blocks/**/*.html",
+                // "./src/blocks/**/*.html",
                 "./src/views/**/*.html"
             ]
         },
@@ -19,7 +19,7 @@ const requireDir = require("require-dir"),
             src: "./src/styles/main.{scss,sass}",
             dist: "./dist/styles/",
             watch: [
-                "./src/blocks/**/*.{scss,sass}",
+                // "./src/blocks/**/*.{scss,sass}",
                 "./src/styles/**/*.{scss,sass}"
             ]
         },
@@ -27,7 +27,7 @@ const requireDir = require("require-dir"),
             src: "./src/js/index.js",
             dist: "./dist/js/",
             watch: [
-                "./src/blocks/**/*.js",
+                // "./src/blocks/**/*.js",
                 "./src/js/**/*.js"
             ]
         },

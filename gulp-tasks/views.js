@@ -13,10 +13,10 @@ const argv = yargs.argv,
 
 gulp.task("views", () => {
     return gulp.src(paths.views.src)
-        .pipe(include({
-            prefix: "@@",
-            basepath: "@file"
-        }))
+        // .pipe(include({
+        //     prefix: "@@",
+        //     basepath: "@file"
+        // }))
         .pipe(gulpif(production, replace(".css", ".min.css")))
         .pipe(gulpif(production, replace(".js", ".min.js")))
         .pipe(gulp.dest(paths.views.dist))
